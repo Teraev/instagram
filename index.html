@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="head">
+        <img class="logo" src="./img/insta.png" alt="">
+        <div class="inputCont">
+            <input type="text" name="search" placeholder="Search" class="Search">
+
+        </div>
+        <div class="left">
+            <img class="hed_saray" src="./img/saray.png" alt="">
+            <img class="chat" src="./img/chat.png" alt="">
+            <img src="./img/interesting.png" alt="">
+            <img class="lik" src="./img/like.png" alt="">
+            <div class="head_circle"></div>
+        </div>
+    </header>
+
+    <div class="postModal">
+        <div class="postContent">
+            <div class="content-left">
+                <img class="mod_photo" src="" alt="post">
+            </div>
+
+            <div class="content-right">
+                <div class="content-userData">
+                    <div class="content-imgNick">
+                        <img src="./img/radmir.jpg" alt="user">
+                        <span>t.e.r.a.e.v</span>
+                    </div>
+                    <button class="content-options">
+                        <img src="./img/dou.png" alt="options">
+                    </button>
+                </div>
+
+                <div class="content-comments">
+                    <div class="co">
+                        <ul id="commentsList"></ul>
+                    </div>
+                </div>
+
+
+
+                <div class="content-data">
+                    <div class="conten-dataTop">
+                        <div class="content-leftActions">
+                            <button class="content-like"><img class="like2" src="./img/like.png" alt="like"></button>
+                            <button id="content-comment"><img src="./img/comment.png" alt="comment"></button>
+                            <button id="content-send"><img src="./img/plan.png" alt="send"></button>
+                        </div>
+                        <div class="content-rightActions">
+                            <button id="content-save"><img src="./img/Add.svg" alt="save"></button>
+                        </div>
+                    </div>
+                    <span>Liked by 9,999 people</span>
+                </div>
+
+                <div class="content-addComment">
+                    <button id="content-smile"><img src="./img//smiley_icon-icons.com_69900.svg" alt="smile"></button>
+                    <input type="text" placeholder="Add a comment...">
+                    <button id="content-post">Post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img class="img_modal" src="" alt="">
+        </div>
+    </div>
+
+    <script src="./scriot.js"></script>
+</body>
+
+</html>
